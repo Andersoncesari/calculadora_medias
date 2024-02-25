@@ -1,0 +1,103 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #ddd8d8;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+form button{
+    background-color: rgb(15, 92, 15);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 140px;
+    padding: 8px
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    font-size: 20px;
+    padding: 16px;
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    
+}
+
+table td{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5); /* o rgba os tres primeiros numeros definem a cor e o ultimo que o alfa seria a trasparencia*/
+    
+}
+
+table td img{
+    height: 32px;
+}
+
+.resultado{
+    padding: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1a1919;
+    border-radius: 5px;
+
+}
+
+.aprovado{
+    background-color:rgb(15, 92, 15); 
+}
+
+.reprovado{
+    background-color:rgb(235, 5, 5); 
+}
